@@ -3,17 +3,15 @@ package array;
 public class Ex1 {
 
 	public static void main(String[] args) {
-		
-		// 숫자 3개를 저장하기 위해 배열 생성
-		int[] arr = new int[3]; // 3개 크기의 정수형 배열 생성
-		
-		arr[0] = 10; // 배열의 첫번째 요소에 값 10 저장
-		arr[1] = 20;
-		arr[2] = 30;
-		
-		// arr[3] = 40; // 에러남.
-		int value = arr[1];
-		System.out.println(value);
-	}
+		// 3개 크기의 정수형 배열 생성
+		int [] arr = { 1, 2, 3 };
 
+		// 생성하고 바로 특정값으로 초기화
+		int [] arr2 = { 1, 2, 3 };
+		
+		int [] arr3; // 배열 선언 
+		arr3 = new int[] { 1, 2, 3 }; // 배열 생성 
+		
+		// 선언과 생성을 따로하는 경우에는 코드를 생략할 수 없음
+	}
 }
